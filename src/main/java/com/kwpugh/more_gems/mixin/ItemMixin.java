@@ -1,6 +1,5 @@
 package com.kwpugh.more_gems.mixin;
 
-import com.kwpugh.more_gems.util.PlayerSpecialAbilities;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.PlayerEntity;
