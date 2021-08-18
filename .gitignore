@@ -1,8 +1,12 @@
 # gradle
 
 .gradle/
-build/
--build/loom-cache
+build/classes
+build/generated
+build/libs
+build/res*
+build/tmp
+build/loom-cache/mix*
 out/
 classes/
 
