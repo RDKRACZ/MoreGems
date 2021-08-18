@@ -1,6 +1,5 @@
 package com.kwpugh.more_gems.mixin;
 
-import com.kwpugh.more_gems.util.PlayerSpecialAbilities;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
