@@ -119,15 +119,15 @@ public class MoreGemsConfig extends PartitioningSerializer.GlobalData
 		@Comment("***************"
 				+"\nEnchantments"
 				+"\n***************")
-		public boolean enableQuickening = true;
-		public boolean enableRazorSharpness = true;
-		public boolean enableShulkerBlade = true;
-		public boolean enableUntouchable = true;
-		public boolean enableFasterObsidian = true;
-		public boolean enableBlinking = true;
-		public boolean enableWisdom = true;
-		public boolean enableStupify = true;
-		public boolean enableVoidEscape = true;
+		public boolean enableQuickening = false;
+		public boolean enableRazorSharpness = false;
+		public boolean enableShulkerBlade = false;
+		public boolean enableUntouchable = false;
+		public boolean enableFasterObsidian = false;
+		public boolean enableBlinking = false;
+		public boolean enableWisdom = false;
+		public boolean enableStupify = false;
+		public boolean enableVoidEscape = false;
 		public float amountYellowHeartsQuickening = 10;
 		public int durationQuickening = 40;
 		public int strengthLevelQuickening = 1;
@@ -145,8 +145,8 @@ public class MoreGemsConfig extends PartitioningSerializer.GlobalData
 				+ "******************************"
 				+"\nBows, Paxels, Hammers, & Excavators"
 				+"\n********************************") 
-		public boolean extraToolsEnable = true;
-		public boolean bowsEnable = true;
+		public boolean extraToolsEnable = false;
+		public boolean bowsEnable = false;
 
 		@Comment("\n"
 				+ "\n"
