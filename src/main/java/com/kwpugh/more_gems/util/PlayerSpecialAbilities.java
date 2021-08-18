@@ -1,7 +1,6 @@
 package com.kwpugh.more_gems.util;
 
 import com.kwpugh.more_gems.MoreGems;
-import com.kwpugh.more_gems.init.EnchantmentInit;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.enchantment.Enchantment;
