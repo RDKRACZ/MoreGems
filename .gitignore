@@ -2,6 +2,7 @@
 
 .gradle/
 build/
+-build/loom-cache
 out/
 classes/
 
