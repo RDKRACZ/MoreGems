@@ -108,12 +108,12 @@ public class MoreGemsConfig extends PartitioningSerializer.GlobalData
        	@Comment("********"
     			+"\nGemBag"
     			+"\n********")
-		public boolean gembagEnable = true;
+		public boolean gembagEnable = false;
 		
     	@Comment("********"
     			+"\nJuju"
     			+"\n********")
-		public boolean jujuEnable = true;
+		public boolean jujuEnable = false;
 		public float jujuChance = .02F;
 		
 		@Comment("***************"
