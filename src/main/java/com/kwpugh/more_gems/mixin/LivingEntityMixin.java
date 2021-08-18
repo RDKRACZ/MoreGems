@@ -24,7 +24,5 @@ public class LivingEntityMixin
 
         Hand hand = attackingPlayer.getActiveHand();
         ItemStack stack = attackingPlayer.getStackInHand(hand);
-
-        PlayerSpecialAbilities.giveWisdom(stack, attackingPlayer);
     }
 }
