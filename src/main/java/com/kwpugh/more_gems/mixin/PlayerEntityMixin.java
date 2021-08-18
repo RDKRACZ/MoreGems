@@ -33,28 +33,5 @@ public abstract class PlayerEntityMixin extends LivingEntity
         PlayerEntity self = ((PlayerEntity) (Object) this);
 
         Map<Enchantment, Integer> enchantments = EnchantmentHelper.get(self.getMainHandStack());
-
-        if (enchantments.containsKey(EnchantmentInit.QUICKENING))
-        {
-            PlayerSpecialAbilities.giveQuickening(world, self, target_1);
-        }
-    }
-
-    @Inject(at = @At(value="HEAD"), method = "damage", cancellable = true)
-    private void damageVoidEscape(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir)
-    {
-        PlayerEntity self = (PlayerEntity) (Object) this;
-
-        if(EnchantmentHelper.getLevel(EnchantmentInit.VOID_ESCAPE, self.getEquippedStack(EquipmentSlot.FEET)) > 0)
-        {
-            self.fallDistance = 0.0F;
-
-            if(source.isOutOfWorld())
-            {
-                PlayerSpecialAbilities.giveVoidEscape(world, self);
-                cir.setReturnValue(false);
-            }
-        }
-
     }
 }
