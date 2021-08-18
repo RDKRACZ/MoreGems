@@ -24,15 +24,5 @@ public class ItemMixin
         ItemStack stack = player.getStackInHand(hand);
 
         Map<Enchantment, Integer> enchantments = EnchantmentHelper.get(player.getMainHandStack());
-
-        if (enchantments.containsKey(EnchantmentInit.BLINKING))
-        {
-            if (!world.isClient)
-            {
-                PlayerSpecialAbilities.giveBlinking(world, player);
-            }
-
-            cir.setReturnValue(TypedActionResult.pass(stack));
-        }
     }
 }
