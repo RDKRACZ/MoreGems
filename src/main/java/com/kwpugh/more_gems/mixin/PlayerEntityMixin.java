@@ -2,7 +2,6 @@ package com.kwpugh.more_gems.mixin;
 
 import java.util.Map;
 
-import com.kwpugh.more_gems.util.PlayerSpecialAbilities;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.damage.DamageSource;
 import org.spongepowered.asm.mixin.Mixin;
